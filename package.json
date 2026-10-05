@@ -1,0 +1,21 @@
+{
+  "name": "ledger-core",
+  "version": "0.1.0",
+  "description": "Zero-dependency immutable double-entry general ledger engine with Turkish Uniform Chart of Accounts (TDHP) and integer kuruş math.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": ["ledger", "double-entry", "accounting", "muhasebe", "tdhp", "mizan", "fintech", "typescript", "immutability"],
+  "author": "Yasin BALÇIK <yasinbalcik74@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
